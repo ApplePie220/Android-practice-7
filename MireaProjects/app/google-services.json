@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664737803525",
+    "project_id": "mireaproject-8deab",
+    "storage_bucket": "mireaproject-8deab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664737803525:android:21ae756190d4b8ad7d9b6c",
+        "android_client_info": {
+          "package_name": "ru.mirea.survillo.mireaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664737803525-fo5mfm02el8d2q5l4101jbone8sgj9sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvGNQ8x-mthYbqDWQrhKp0MEJVbWzaBQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664737803525-fo5mfm02el8d2q5l4101jbone8sgj9sv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

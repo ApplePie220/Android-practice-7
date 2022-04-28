@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.survillo.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.survillo.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.survillo.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragmentNavigation"
+        android:name="ru.mirea.survillo.mireaproject.FragmentNavigation"
+        android:label="fragment_navigation"
+        tools:layout="@layout/fragment_navigation" />
+    <fragment
+        android:id="@+id/fragmentCalculate"
+        android:name="ru.mirea.survillo.mireaproject.FragmentCalculate"
+        android:label="fragment_calculate"
+        tools:layout="@layout/fragment_calculate" />
+    <fragment
+        android:id="@+id/fragmentWebview"
+        android:name="ru.mirea.survillo.mireaproject.FragmentWebview"
+        android:label="fragment_webview"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/audioFragment"
+        android:name="ru.mirea.survillo.mireaproject.AudioFragment"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/recordAudioFragment"
+        android:name="ru.mirea.survillo.mireaproject.RecordAudioFragment"
+        android:label="fragment_record_audio"
+        tools:layout="@layout/fragment_record_audio" />
+    <fragment
+        android:id="@+id/createPhotoFragment"
+        android:name="ru.mirea.survillo.mireaproject.CreatePhotoFragment"
+        android:label="fragment_create_photo"
+        tools:layout="@layout/fragment_create_photo" />
+    <fragment
+        android:id="@+id/sensorsFragment"
+        android:name="ru.mirea.survillo.mireaproject.SensorsFragment"
+        android:label="fragment_sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.survillo.mireaproject.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/storysFragment"
+        android:name="ru.mirea.survillo.mireaproject.ui.story.StorysFragment"
+        android:label="fragment_storys"
+        tools:layout="@layout/fragment_storys" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="ru.mirea.survillo.mireaproject.ui.autentification.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>

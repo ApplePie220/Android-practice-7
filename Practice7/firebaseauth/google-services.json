@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "673067624176",
+    "project_id": "practice7-98a60",
+    "storage_bucket": "practice7-98a60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673067624176:android:50e9fa4732d34fedde4435",
+        "android_client_info": {
+          "package_name": "ru.mirea.survillo.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673067624176-3nlqiu1etgpaiqlhus58j87eu2r22jht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYby-VdTSswHSxHvPpMmavmjs3FyVhnf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673067624176-3nlqiu1etgpaiqlhus58j87eu2r22jht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
